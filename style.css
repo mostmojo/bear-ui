@@ -31,3 +31,8 @@ body {
 	border-radius: 100%;
 	background: var(--brown);
   }
+
+  .ear--right {
+	transform: translateX(120px);
+  }
+
