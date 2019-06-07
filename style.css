@@ -1,9 +1,24 @@
 :root {
-    --brown: #B28167;
-    --pink: #ffd8d8;
-    --blue: #81C2C5;
-  }
+	--brown: #b28167;
+	--pink: #ffd8d8;
+	--blue: #81c2c5;
+}
 
-  body {
-    background: var(--blue);
+body {
+	background: var(--blue);
+}
+
+.container, .ear,
+.face, .inner, .eye, .snout {
+  position: absolute;
+}
+
+.container {
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 200px;
+	height: 100px;
   }
