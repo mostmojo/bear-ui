@@ -129,4 +129,14 @@ body {
     border-bottom: 2px solid;
     top: 15px;
     left: 26px;
-  }
+}
+
+.dummy {
+	position: absolute;
+	width: 27px;
+    height: 18px;
+    border-radius: 100%;
+    top: 14px;
+	right: 18px;
+	background: var(--blue);
+}
