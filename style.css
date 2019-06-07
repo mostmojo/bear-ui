@@ -1,7 +1,7 @@
 :root {
 	--brown: #b28167;
 	--pink: #ffd8d8;
-	--blue: #b4e8ea;
+	--blue: #81c2c5;
 	--black: #000000;
 	--white: #ffffff;
 }
@@ -89,4 +89,24 @@ body {
 
 .eye-fill--right {
 	transform: translateX(60px);
+}
+
+.snout {
+	top: 110px;
+    left: 70px;
+    width: 63px;
+    height: 45px;
+	background: #FDCFCF;
+	border-radius: 100%;
+	z-index: 11;
+}
+
+.nose {
+	position: absolute;
+    top: 4px;
+    left: 24px;
+	width: 15px;
+	height: 7px;
+	background: var(--black);
+	border-radius: 100%;
 }
