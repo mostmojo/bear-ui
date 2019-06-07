@@ -103,9 +103,9 @@ body {
 }
 
 .nose {
+	position: absolute;
 	width: 15px;
 	height: 7px;
-	position: absolute;
     top: 4px;
     left: 24px;
 	border-radius: 100%;
@@ -113,10 +113,20 @@ body {
 }
 
 .bridge {
+	position: absolute;
 	width: 2px;
     height: 10px;
-	position: absolute;
     top: 10px;
 	left: 30px;
 	background: var(--black);
 }
+
+.mouth {
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 0% 0% 100% 100%;
+    border-bottom: 2px solid;
+    top: 15px;
+    left: 26px;
+  }
