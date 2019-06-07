@@ -1,16 +1,23 @@
 :root {
 	--brown: #b28167;
 	--pink: #ffd8d8;
-	--blue: #81c2c5;
+	--blue: #b4e8ea;
+	--black: #000000;
+	--white: #ffffff;
 }
 
 body {
 	background: var(--blue);
 }
 
-.container, .ear,
-.face, .inner, .eye, .snout {
-  position: absolute;
+.container,
+.ear,
+.face,
+.inner,
+.eye,
+.eye-fill,
+.snout {
+	position: absolute;
 }
 
 .container {
@@ -54,4 +61,32 @@ body {
 
 .inner--right {
 	left: 20px;
+}
+
+.eye {
+	top: 100px;
+	left: 70px;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: var(--black);
+	z-index: 10;
+}
+
+.eye--right {
+	transform: translateX(60px);
+}
+
+.eye-fill {
+	top: 90px;
+	left: 48px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: var(--white);
+	z-index: 9;
+}
+
+.eye-fill--right {
+	transform: translateX(60px);
 }
