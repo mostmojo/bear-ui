@@ -1,0 +1,9 @@
+:root {
+    --brown: #B28167;
+    --pink: #ffd8d8;
+    --blue: #81C2C5;
+  }
+
+  body {
+    background: var(--blue);
+  }
