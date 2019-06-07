@@ -21,21 +21,22 @@ body {
 }
 
 .container {
-	margin: auto;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	width: 200px;
 	height: 100px;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
 }
 
 .ear {
-	top: -5px;
-	left: -2px;
 	width: 80px;
 	height: 80px;
 	border-radius: 100%;
+	top: -5px;
+	left: -2px;
 	background: var(--brown);
 }
 
@@ -51,12 +52,12 @@ body {
 }
 
 .inner {
-	top: 8px;
-	left: 10px;
 	width: 50px;
 	height: 50px;
+	top: 8px;
+	left: 10px;
+	border-radius: 100%;
 	background: var(--pink);
-	border-radius: 1000%;
 }
 
 .inner--right {
@@ -64,13 +65,13 @@ body {
 }
 
 .eye {
-	top: 100px;
-	left: 70px;
 	width: 10px;
 	height: 10px;
+	top: 100px;
+	left: 70px;
 	border-radius: 100%;
-	background: var(--black);
 	z-index: 10;
+	background: var(--black);
 }
 
 .eye--right {
@@ -78,13 +79,13 @@ body {
 }
 
 .eye-fill {
-	top: 90px;
-	left: 48px;
 	width: 50px;
 	height: 50px;
+	top: 90px;
+	left: 48px;
 	border-radius: 100%;
-	background: var(--white);
 	z-index: 9;
+	background: var(--white);
 }
 
 .eye-fill--right {
@@ -92,21 +93,30 @@ body {
 }
 
 .snout {
+	width: 63px;
+    height: 45px;
 	top: 110px;
     left: 70px;
-    width: 63px;
-    height: 45px;
-	background: #FDCFCF;
 	border-radius: 100%;
 	z-index: 11;
+	background: #FDCFCF;
 }
 
 .nose {
+	width: 15px;
+	height: 7px;
 	position: absolute;
     top: 4px;
     left: 24px;
-	width: 15px;
-	height: 7px;
-	background: var(--black);
 	border-radius: 100%;
+	background: var(--black);
+}
+
+.bridge {
+	width: 2px;
+    height: 10px;
+	position: absolute;
+    top: 10px;
+	left: 30px;
+	background: var(--black);
 }
