@@ -95,9 +95,9 @@ body {
 
 .snout {
 	width: 63px;
-    height: 45px;
+    	height: 45px;
 	top: 110px;
-    left: 70px;
+    	left: 70px;
 	border-radius: 100%;
 	z-index: 11;
 	background: #FDCFCF;
@@ -107,8 +107,8 @@ body {
 	position: absolute;
 	width: 15px;
 	height: 7px;
-    top: 4px;
-    left: 24px;
+    	top: 4px;
+    	left: 24px;
 	border-radius: 100%;
 	background: var(--black);
 }
@@ -116,28 +116,28 @@ body {
 .bridge {
 	position: absolute;
 	width: 2px;
-    height: 10px;
-    top: 10px;
+    	height: 10px;
+    	top: 10px;
 	left: 30px;
 	background: var(--black);
 }
 
 .mouth {
-    position: absolute;
-    width: 10px;
-    height: 5px;
-    border-radius: 0% 0% 100% 100%;
-    border-bottom: 2px solid;
-    top: 15px;
-    left: 26px;
+	position: absolute;
+	width: 10px;
+    	height: 5px;
+    	border-radius: 0% 0% 100% 100%;
+    	border-bottom: 2px solid;
+    	top: 15px;
+    	left: 26px;
 }
 
 .dummy {
 	position: absolute;
 	width: 27px;
-    height: 18px;
-    border-radius: 20px;
-    top: 14px;
+    	height: 18px;
+    	border-radius: 20px;
+    	top: 14px;
 	right: 18px;
 	background: var(--blue);
 }
@@ -145,19 +145,19 @@ body {
 .dummy__oval {
 	position: absolute;
 	width: 17px;
-    height: 12px;
-    top: 4px;
-    left: 5px;
+    	height: 12px;
+    	top: 4px;
+    	left: 5px;
 	border-radius: 20px;
 	background: var(--red);
 }
 
 .dummy__ring {
-    position: absolute;
-    top: 7px;
-    left: 6px;
-    width: 12px;
-    height: 12px;
-    border: 2px solid var(--red);
-    border-radius: 20px;
-  }
+	position: absolute;
+    	top: 7px;
+    	left: 6px;
+    	width: 12px;
+    	height: 12px;
+    	border: 2px solid var(--red);
+    	border-radius: 20px;
+}
